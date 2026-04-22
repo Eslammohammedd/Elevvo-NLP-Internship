@@ -3,7 +3,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
 class ResumeMatcher:
-    def __init__(self, model_name: str = 'all-MiniLM-L6-v2'):
+    def __init__(self, model_name: str = 'all-mpnet-base-v2'):
         """
         Initializes the matcher with a pre-trained SentenceTransformer model.
         """

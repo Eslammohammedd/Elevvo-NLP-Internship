@@ -1,7 +1,7 @@
 # Task 8: Resume Screening Using NLP
 
 ## Overview
-This task focuses on developing a system to screen and rank resumes based on job descriptions using Natural Language Processing. It leverages `SentenceTransformers` to extract semantic representations of both resumes and job descriptions and ranks resumes based on cosine similarity.
+This task focuses on developing a system to screen and rank resumes based on job descriptions using Natural Language Processing. It leverages `SentenceTransformers` (specifically the `all-mpnet-base-v2` model for highly accurate semantic matching) to extract semantic representations of both resumes and job descriptions and ranks resumes based on cosine similarity.
 
 ![Pipeline Architecture](assets/architecture.png)
 

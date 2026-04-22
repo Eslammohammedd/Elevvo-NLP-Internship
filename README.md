@@ -75,7 +75,7 @@ I successfully completed and standardized **8 NLP projects** (Tasks 1, 2, 3, 4, 
 - **Objective:** Screen and rank candidate resumes against job descriptions.
 - **Dataset:** Unstructured Resume texts and Job Descriptions.
 - **Concepts:** SentenceTransformers, Cosine Similarity, Semantic Search, Named Entity Recognition (spaCy).
-- **Best Result:** `all-MiniLM-L6-v2` — **~0.76 Avg Top-1 Matching Score**.
+- **Best Result:** `all-mpnet-base-v2` — **~0.76 Avg Top-1 Matching Score**.
 - **Highlights:** Interactive Streamlit matching application; Entity extraction of candidate skills.
 
 ---
@@ -130,7 +130,7 @@ Alternatively, explore the detailed Exploratory Data Analysis in the `notebooks/
 | Task 5 — Topic Modeling | LDA + NMF | Qualitative | 5 topics |
 | Task 6 — Question Answering | DistilBERT | F1-Score | **74.2%** |
 | Task 7 — Text Summarization | T5-Small | ROUGE-L | **0.237** |
-| Task 8 — Resume Screening | all-MiniLM-L6-v2 | Top-1 Score | **~0.76** |
+| Task 8 — Resume Screening | all-mpnet-base-v2 | Top-1 Score | **~0.76** |
 
 ---
 

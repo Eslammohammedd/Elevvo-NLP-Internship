@@ -58,7 +58,7 @@ def generate_results():
         "timestamp": datetime.now().isoformat(),
         "total_jobs_evaluated": len(jobs_df),
         "total_resumes_evaluated": len(resumes_df),
-        "model_used": "all-MiniLM-L6-v2",
+        "model_used": "all-mpnet-base-v2",
         "average_top_1_score": results_df[results_df['rank'] == 1]['score'].mean()
     }
     
