@@ -1,0 +1,6 @@
+# Task 5: Topic Modeling on News Articles
+pandas
+numpy
+nltk
+scikit-learn
+gensim

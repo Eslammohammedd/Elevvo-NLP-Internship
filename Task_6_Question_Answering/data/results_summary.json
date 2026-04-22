@@ -1,0 +1,10 @@
+{
+  "task": "Task 6 — Question Answering",
+  "generated": "2026-04-21T22:13:17.092605",
+  "n_questions": 100,
+  "model": "distilbert-base-cased-distilled-squad",
+  "metrics": {
+    "Exact Match (%)": 57.0,
+    "F1 Score (%)": 74.21
+  }
+}
