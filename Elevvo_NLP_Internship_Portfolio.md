@@ -167,13 +167,13 @@ The developed portfolio demonstrates a strong grasp of the core concepts taught 
 * **Goal:** Develop a system to screen and rank candidate resumes against job descriptions.
 * **Dataset:** Unstructured Resume texts and Job Description documents.
 * **Execution:**
-  - **Architecture:** Generates semantic embeddings via `SentenceTransformers` (`all-MiniLM-L6-v2`).
+  - **Architecture:** Generates semantic embeddings via `SentenceTransformers` (`all-mpnet-base-v2`).
   - **Evaluation:** Matches candidates using document-level cosine similarity.
 * **Verified Results (from `data/results_summary.json`):**
 
 | Model | Evaluated Jobs | Evaluated Resumes | Avg Top-1 Score |
 |-------|----------------|-------------------|-----------------|
-| **all-MiniLM-L6-v2** | 3 | 5 | **0.758** |
+| **all-mpnet-base-v2** | 3 | 5 | **0.758** |
 
 * **Bonus Points Achieved:** ✔ Created a Streamlit front-end to upload resumes and perform interactive matching (`app.py`). ✔ Used `spaCy` to implement named entity extraction (NER) for candidate skills.
 
