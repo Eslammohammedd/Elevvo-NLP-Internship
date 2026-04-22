@@ -1,0 +1,20 @@
+
+graph LR
+    A(Input Resumes) --> C(Preprocess & Clean)
+    B(Input Job Description) --> C
+    
+    C --> D(NER Extraction - Skills/Experience)
+    C --> E(SentenceTransformers)
+    
+    E --> F(Cosine Similarity Matcher)
+    
+    D --> G[Ranked Candidates]
+    F --> G
+    
+    style A fill:#E1D5E7
+    style B fill:#D5E8D4
+    style C fill:#FFE6CC
+    style D fill:#FFF2CC
+    style E fill:#DAE8FC
+    style F fill:#F8CECC
+    style G fill:#D5E8D4

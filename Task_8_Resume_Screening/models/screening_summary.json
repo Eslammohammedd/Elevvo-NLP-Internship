@@ -1,0 +1,8 @@
+{
+    "task": "Resume Screening",
+    "timestamp": "2026-04-21T22:23:20.589244",
+    "total_jobs_evaluated": 3,
+    "total_resumes_evaluated": 5,
+    "model_used": "all-MiniLM-L6-v2",
+    "average_top_1_score": 0.7582861582438151
+}

@@ -1,0 +1,168 @@
+{
+  "task": "Task 5 — Topic Modeling",
+  "generated": "2026-04-15T03:34:53.644092",
+  "n_documents": 25,
+  "n_topics": 5,
+  "lda_coherence": -10.0309,
+  "lda_topics": [
+    {
+      "topic_id": 1,
+      "top_words": [
+        "new",
+        "economic",
+        "record",
+        "consumer",
+        "trade",
+        "cultural",
+        "boost",
+        "spending",
+        "increasingly",
+        "address"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "top_words": [
+        "across",
+        "tour",
+        "within",
+        "feature",
+        "continent",
+        "fan",
+        "audience",
+        "tournament",
+        "player",
+        "team"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "top_words": [
+        "security",
+        "record",
+        "new",
+        "government",
+        "rate",
+        "spending",
+        "series",
+        "challenge",
+        "response",
+        "organized"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "top_words": [
+        "athlete",
+        "data",
+        "method",
+        "sport",
+        "competitor",
+        "performance",
+        "player",
+        "competitive",
+        "tournament",
+        "prize"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "top_words": [
+        "company",
+        "energy",
+        "technology",
+        "concern",
+        "market",
+        "global",
+        "globally",
+        "competing",
+        "investment",
+        "major"
+      ]
+    }
+  ],
+  "nmf_topics": [
+    {
+      "topic_id": 1,
+      "top_words": [
+        "technology",
+        "companies",
+        "energy",
+        "growing",
+        "concerns",
+        "grow",
+        "seek",
+        "global",
+        "competing",
+        "markets"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "top_words": [
+        "players",
+        "prize",
+        "drawing",
+        "cultural",
+        "cities",
+        "traditional",
+        "competitive",
+        "major",
+        "younger",
+        "audiences"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "top_words": [
+        "security",
+        "data",
+        "record",
+        "spending",
+        "organized",
+        "training",
+        "individual",
+        "critical",
+        "reached",
+        "computing"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "top_words": [
+        "trade",
+        "remain",
+        "growth",
+        "economic",
+        "sector",
+        "job",
+        "manufacturing",
+        "new",
+        "boost",
+        "despite"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "top_words": [
+        "series",
+        "tour",
+        "following",
+        "fans",
+        "streaming",
+        "records",
+        "productions",
+        "multiple",
+        "social",
+        "praised"
+      ]
+    }
+  ],
+  "topic_distribution": {
+    "4": 8,
+    "2": 6,
+    "0": 5,
+    "1": 3,
+    "3": 3
+  }
+}

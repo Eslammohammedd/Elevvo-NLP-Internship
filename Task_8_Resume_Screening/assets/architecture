@@ -1,0 +1,26 @@
+// Resume Screening Pipeline
+digraph {
+	rankdir=LR
+	node [fillcolor=lightblue fontname=Arial shape=box style="rounded,filled"]
+	edge [fontname=Arial fontsize=10]
+	A [label="Input Resumes
+(PDF / TXT)" fillcolor="#E1D5E7"]
+	B [label="Input Job Description" fillcolor="#D5E8D4"]
+	C [label="Preprocess
+(Clean Text)" fillcolor="#FFE6CC"]
+	D [label="NER Extraction
+(Skills / Experience)" fillcolor="#FFF2CC"]
+	E [label="SentenceTransformers
+(all-MiniLM-L6-v2)" fillcolor="#DAE8FC"]
+	F [label="Cosine Similarity
+Matcher" fillcolor="#F8CECC"]
+	G [label="Ranked Candidates
+(Output)" fillcolor="#D5E8D4"]
+	A -> C [label="Raw Text"]
+	B -> C [label="Raw Text"]
+	C -> D [label="Clean Resumes"]
+	C -> E [label=Embeddings]
+	E -> F [label=Vectors]
+	D -> G [label="Extracted Entities"]
+	F -> G [label="Match Scores"]
+}

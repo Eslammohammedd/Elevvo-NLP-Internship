@@ -1,0 +1,23 @@
+{
+  "task": "Task 1 — Sentiment Analysis",
+  "generated": "2026-04-15T03:35:39.335059",
+  "test_samples": 2000,
+  "models": [
+    {
+      "model": "Logistic Regression (TF-IDF)",
+      "accuracy": 0.853,
+      "precision": 0.8278,
+      "recall": 0.876,
+      "f1_score": 0.8512
+    },
+    {
+      "model": "Naive Bayes (CountVec)",
+      "accuracy": 0.837,
+      "precision": 0.8337,
+      "recall": 0.825,
+      "f1_score": 0.8293
+    }
+  ],
+  "best_model": "Logistic Regression (TF-IDF)",
+  "best_accuracy": 0.853
+}

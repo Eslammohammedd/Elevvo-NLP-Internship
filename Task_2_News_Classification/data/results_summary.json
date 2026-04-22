@@ -1,0 +1,39 @@
+{
+  "task": "Task 2 — News Classification",
+  "generated": "2026-04-15T03:37:06.436874",
+  "test_samples": 2000,
+  "categories": [
+    "World",
+    "Sports",
+    "Business",
+    "Sci/Tech"
+  ],
+  "models": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.8795,
+      "macro_precision": 0.8792,
+      "macro_recall": 0.8795,
+      "macro_f1": 0.8792,
+      "weighted_f1": 0.8792
+    },
+    {
+      "model": "Linear SVM",
+      "accuracy": 0.881,
+      "macro_precision": 0.8811,
+      "macro_recall": 0.881,
+      "macro_f1": 0.8808,
+      "weighted_f1": 0.8808
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.8375,
+      "macro_precision": 0.8372,
+      "macro_recall": 0.8375,
+      "macro_f1": 0.8368,
+      "weighted_f1": 0.8368
+    }
+  ],
+  "best_model": "Linear SVM",
+  "best_accuracy": 0.881
+}

@@ -1,0 +1,18 @@
+{
+  "task": "Task 7 — Text Summarization",
+  "generated": "2026-04-15T03:41:38.037634",
+  "n_articles": 50,
+  "models": {
+    "T5-Small (Abstractive)": {
+      "ROUGE-1": 0.3168,
+      "ROUGE-2": 0.1273,
+      "ROUGE-L": 0.2374
+    },
+    "TextRank (Extractive)": {
+      "ROUGE-1": 0.2558,
+      "ROUGE-2": 0.089,
+      "ROUGE-L": 0.1745
+    }
+  },
+  "best_model_rouge_L": "T5-Small"
+}
