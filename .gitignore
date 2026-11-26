@@ -37,3 +37,12 @@ models/
 data/train.csv
 data/test.csv
 data/results.csv
+
+# Local secrets
+.env
+!.env.example
+
+# Generated datasets in any task directory
+**/data/train.csv
+**/data/test.csv
+**/data/results.csv
