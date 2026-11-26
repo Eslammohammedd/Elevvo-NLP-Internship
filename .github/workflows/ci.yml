@@ -26,6 +26,8 @@ jobs:
           - Task_2_News_Classification
           - Task_3_Fake_News
           - Task_4_NER
+          - Task_5_Topic_Modeling
+          - Task_7_Text_Summarization
     defaults:
       run:
         working-directory: ${{ matrix.task }}

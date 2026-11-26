@@ -143,7 +143,7 @@ cd Task_1_Sentiment_Analysis
 python -m pytest tests -q
 ```
 
-Repeat for any task folder. CI runs the lightweight suites (Tasks 1–4) on every push and pull request.
+Repeat for any task folder. CI runs the lightweight suites (Tasks 1–5 and 7) on every push and pull request. Tasks 6 and 8 load transformer models and are verified manually to keep CI fast.
 
 ## 📦 Data & Models
 

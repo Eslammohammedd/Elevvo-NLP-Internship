@@ -19,6 +19,7 @@ def to_binary(label):
 
 def preprocess_text(text):
     """Full NLP preprocessing pipeline."""
+    download_nltk_resources()
     lemmatizer = WordNetLemmatizer()
     stop_words  = set(stopwords.words('english'))
     text = str(text).lower()
