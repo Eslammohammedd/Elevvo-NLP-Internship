@@ -134,4 +134,25 @@ Alternatively, explore the detailed Exploratory Data Analysis in the `notebooks/
 
 ---
 
+## 🧪 Testing
+
+Run each task's tests from its own folder so `src/` imports resolve correctly:
+
+```bash
+cd Task_1_Sentiment_Analysis
+python -m pytest tests -q
+```
+
+Repeat for any task folder. CI runs the lightweight suites (Tasks 1–4) on every push and pull request.
+
+## 📦 Data & Models
+
+Datasets are generated/downloaded with `download_data.py`. Trained models are written to each task's `models/` folder by its `main.py`; regenerate them locally instead of relying on committed binaries.
+
+## 📄 License
+
+MIT — see [LICENSE](LICENSE).
+
+---
+
 *Elevvo NLP Internship — Certificate of Completion — 2026*
