@@ -1,5 +1,7 @@
 # Elevvo NLP Internship Portfolio 🚀
 
+[![CI](https://github.com/Eslammohammedd/Elevvo-NLP-Internship/actions/workflows/ci.yml/badge.svg)](https://github.com/Eslammohammedd/Elevvo-NLP-Internship/actions/workflows/ci.yml)
+
 Welcome to my **Natural Language Processing (NLP) Internship Portfolio**! This repository showcases the advanced NLP models and pipelines I developed during my internship at Elevvo. The objective of this training was to build end-to-end machine learning workflows for text analysis, ranging from classical ML techniques to modern Transformer-based architectures.
 
 ---
