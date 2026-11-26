@@ -17,6 +17,7 @@ def preprocess_text(text: str) -> list:
     Returns a list of clean tokens (not a joined string).
     LDA works best with tokenized lists.
     """
+    download_nltk_resources()
     lemmatizer = WordNetLemmatizer()
     stop_words = set(stopwords.words('english'))
 

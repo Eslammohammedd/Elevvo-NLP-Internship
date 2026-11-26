@@ -5,6 +5,8 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from nltk.tokenize import sent_tokenize
 from nltk.corpus import stopwords
 
+from preprocess import download_nltk_resources
+
 def load_t5_model(model_name='t5-small'):
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
@@ -26,6 +28,7 @@ def generate_t5_summary(text, tokenizer, model):
 
 def textrank_summary(text, num_sentences=3):
     """Simple TextRank-based extractive summarization."""
+    download_nltk_resources()
     stop_words = set(stopwords.words('english'))
     sentences = sent_tokenize(text)
     if len(sentences) <= num_sentences:

@@ -12,6 +12,7 @@ def download_nltk_resources():
 
 def preprocess_text(text):
     """Tokenization, stopword removal, and lemmatization pipeline."""
+    download_nltk_resources()
     lemmatizer = WordNetLemmatizer()
     stop_words = set(stopwords.words('english'))
     text = text.lower()
