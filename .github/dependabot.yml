@@ -1,0 +1,47 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/Task_1_Sentiment_Analysis"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 2
+  - package-ecosystem: "pip"
+    directory: "/Task_2_News_Classification"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 2
+  - package-ecosystem: "pip"
+    directory: "/Task_3_Fake_News"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 2
+  - package-ecosystem: "pip"
+    directory: "/Task_4_NER"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 2
+  - package-ecosystem: "pip"
+    directory: "/Task_5_Topic_Modeling"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 2
+  - package-ecosystem: "pip"
+    directory: "/Task_6_Question_Answering"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 2
+  - package-ecosystem: "pip"
+    directory: "/Task_7_Text_Summarization"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 2
+  - package-ecosystem: "pip"
+    directory: "/Task_8_Resume_Screening"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 2
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 2
