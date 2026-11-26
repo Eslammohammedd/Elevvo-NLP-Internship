@@ -12,6 +12,7 @@ def download_nltk_resources():
 
 def preprocess_text(text):
     """Full NLP preprocessing pipeline."""
+    download_nltk_resources()
     lemmatizer = WordNetLemmatizer()
     stop_words = set(stopwords.words('english'))
     # 1. Lowercase

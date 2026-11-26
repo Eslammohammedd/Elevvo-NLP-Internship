@@ -12,5 +12,5 @@ def truncate_for_t5(text, tokenizer, max_tokens=500):
     """Prepend T5 task prefix and truncate to token limit."""
     prefix = 'summarize: '
     full_text = prefix + text
-    tokens = tokenizer.encode(full_text, max_length=max_tokens + 2, truncation=True, return_tensors='pt')
-    return tokenizer.decode(tokens[0], skip_special_tokens=True)
+    tokens = tokenizer.encode(full_text, max_length=max_tokens + 2, truncation=True)
+    return tokenizer.decode(tokens, skip_special_tokens=True)
