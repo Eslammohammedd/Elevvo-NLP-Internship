@@ -29,3 +29,11 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Generated data and model artifacts
+*.pkl
+*.joblib
+models/
+data/train.csv
+data/test.csv
+data/results.csv
