@@ -147,7 +147,7 @@ Repeat for any task folder. CI runs the lightweight suites (Tasks 1–5 and 7) o
 
 ## 📦 Data & Models
 
-Datasets are generated/downloaded with `download_data.py`. Trained models are written to each task's `models/` folder by its `main.py`; regenerate them locally instead of relying on committed binaries.
+Datasets are generated/downloaded with `download_data.py`. Trained models are written to each task's `models/` folder by its `main.py`; regenerate them locally instead of relying on committed binaries. See [docs/DATA_AND_MODELS.md](docs/DATA_AND_MODELS.md) for exact commands and the list of ignored artifacts.
 
 ## 📄 License
 
